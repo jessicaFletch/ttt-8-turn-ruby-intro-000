@@ -14,6 +14,11 @@ def input_to_index(int)
   index = (int.to_i) -1 
 end
 
+def move (board)
+  board[index] = token 
+  play(board)
+end
+
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
@@ -32,8 +37,5 @@ def turn(board)
   index = input_to_index(user_input)
 end
   
-def move (board)
-  board[index] = token 
-  play(board)
-end
+
   
