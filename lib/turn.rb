@@ -32,5 +32,4 @@ def turn(board)
   index = inout_to_index(user_input)
   token = current_player(board)
 end
-end
   
