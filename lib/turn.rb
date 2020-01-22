@@ -14,12 +14,6 @@ def input_to_index(int)
   index = (int.to_i) -1 
 end
 
-def move (board)
-  board[index] = token 
-  play(board)
-end
-  move(board, 0, "O")
-  move(board, 8, "X")
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
