@@ -18,6 +18,7 @@ def move (board)
   board[index] = token 
   play(board)
 end
+move()
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
