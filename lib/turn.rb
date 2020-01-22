@@ -35,8 +35,10 @@ end
   
 
    
-def move (board)
- 
+def move(board, index, token)
+  board[index] = token
+  play(board)
+  
 end
 
   
