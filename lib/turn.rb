@@ -36,9 +36,7 @@ end
 
    
 def move (board)
-  player_O = board, 0, "O"
-  player_X = baord, 8, "X"
-
+ 
 end
 
   
