@@ -32,4 +32,8 @@ def turn(board)
   index = input_to_index(user_input)
 end
   
+def move (board)
+  board[index] = token 
+  play(board)
+end
   
